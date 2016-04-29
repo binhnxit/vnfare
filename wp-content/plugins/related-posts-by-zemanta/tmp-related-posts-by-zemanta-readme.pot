@@ -1,0 +1,418 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Short description.
+msgid "Zemanta recommends your content to new audiences both on your blog and across our network of high-quality sites."
+msgstr ""
+
+#. Screenshot description.
+msgid "Zemanta Related Posts Default Theme."
+msgstr ""
+
+#. Screenshot description.
+msgid "Zemanta Related Posts responsive theme on a Galaxy Nexus and iPhone 4s."
+msgstr ""
+
+#. Found in description header.
+msgid "Welcome nRelate users!"
+msgstr ""
+
+#. Found in description header.
+msgid "Performance"
+msgstr ""
+
+#. Found in description header.
+msgid "Editorial support"
+msgstr ""
+
+#. Found in description header.
+msgid "Customizable themes"
+msgstr ""
+
+#. Found in description header.
+msgid "nRelate Compatibility"
+msgstr ""
+
+#. Found in description list item.
+msgid "In-Text links recommendations from popular sources such as Wikipedia, IMDB, and YouTube"
+msgstr ""
+
+#. Found in description list item.
+msgid "Responsive themes for desktop, tablet, and mobile"
+msgstr ""
+
+#. Found in description list item.
+msgid "Like writing CSS? Customize Related Posts with your own code!"
+msgstr ""
+
+#. Found in description list item.
+msgid "number of posts to show in the widget"
+msgstr ""
+
+#. Found in description list item.
+msgid "related title above the widget"
+msgstr ""
+
+#. Found in description list item.
+msgid "show excerpts of articles or not"
+msgstr ""
+
+#. Found in description list item.
+msgid "max age of articles to be recommended"
+msgstr ""
+
+#. Found in description list item.
+msgid "thumbnail size"
+msgstr ""
+
+#. Found in description list item.
+msgid "default thumbnail"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our friends at nRelate recently announced that they will be discontinuing their popular nRelate for WordPress plugin and recommendations service. If you're joining us from nRelate, we'd like to thank you for choosing Related Posts by Zemanta!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Similar to nRelate, Related Posts by Zemanta brings new visitors to your site, helping you increase your reach and readership."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Related Posts is unique because it gives you the option to editorially curate related content for each post, or let Zemanta automatically recommend sources from around the web -- OR BOTH!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Here's a few other features you might enjoy:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our recommendations aren't database intensive, which is why we're not blacklisted by <a href=\"http://wpengine.com/support/disallowed-plugins/\">WP Engine</a>. This also means better performance, not to mention you can set how far back you wish to index your articles in the plugin settings."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Zemanta offers users editorial support by enabling a Related articles widget. You manually choose the articles you wish to recommend to others. This way you reach out to other bloggers that write about similar topics - remember sharing is caring! =)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Related Posts plugin comes with a lot of beautiful themes with different thumbnail sizes. You can even manually adjust the \"look and feel\" of the theme with custom CSS and other advanced settings. And if you bump into an obstacle, our Support team is happy to help you out, just <a href=\"support@zemanta.com\">reach out</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Customize the look and feel of Zemanta's Related Posts plugin by navigating to WordPress Dashboard &gt; Settings &gt; Related Posts by Zemanta"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To simplify the transition, we added specific support for users switching from nRelate, so that our plugin will automatically use some of your old settings:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you have any questions getting started, please let us know! Send us an email to support@zemanta.com. We'd love to hear from you."
+msgstr ""
+
+#. Found in installation header.
+msgid "Via admin:"
+msgstr ""
+
+#. Found in installation header.
+msgid "Via upload:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Plugins -&gt; Add New"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Search for Related Posts by Zemanta"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install the plugin called \"Related Posts by Zemanta\" and activate it"
+msgstr ""
+
+#. Found in installation list item.
+msgid "After activation check out advanced features"
+msgstr ""
+
+#. Found in installation list item.
+msgid "If you use any caching plugin please clear the cache"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Done!"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the plugin .zip file"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Log in to yourdomain.com/wp-admin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click Plugins -&gt; Add New -&gt; Upload"
+msgstr ""
+
+#. Found in installation list item.
+msgid "After installation activate the plugin and check out advanced features"
+msgstr ""
+
+#. Found in installation list item.
+msgid "You're finished!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for category names in related posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Article upload support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug that prevented image download from posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pinterest fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing featured image bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing thumbnail for selected related articles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Automatic nRelate settings migration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional database optimization for recommendation engine"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed possible database errors after plugin upgrade"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing argument bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed non-object bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed excerpt bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The subscription API forwards blog URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed multiple related posts plugin problem"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Responsive themes bugfix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed mobile themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed statistics"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link to settings moved from main menu to Settings submenu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incompatibility with Editorial Assistant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "HTTPS support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dashboard Statistics bugfix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed 'Related Posts' link from top admin bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Zemanta Readside plugins incompatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Uninstallation added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed migration bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for custom size thumbnail "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes for thumbnailer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Open Graph plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimized thumbnail rendering"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Zemanta Editorial Assistant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes for \"Edit related posts\" feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New thumbnailer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Blacklisting individual promoted articles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix in tag generator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Edit Related Posts gets a visual upgrade, search functionality and a dose of awesome"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved thumbnailer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Due to popular demand, \"Edit related posts\" is back in action. Send us more feedback to support@zemanta.com. Thanks!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for Cross-Site Request Forgery vulnerability. Credits for finding and reporting the vulnerability go to Charlie Eriksen via Secunia SVCRP."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a post excerpt bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link back to Zemanta is off by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed \"edit related posts\" functionality (already edited posts won't revert back)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved editorial control"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed plugin content filter priority from 101 to 10"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Mobile themes settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Editorial control"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Pinterest inspired theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Limit related post age"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix for thumbnail extraction"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "first version"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is Related Posts by Zemanta?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the difference between Zemanta and nRelate?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I customize the widget?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will Zemanta steal my \"link-juice\"?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why does Zemanta have 3 similar plugins? What's the difference between them?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What about Terms of Service and Privacy policy?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Zemanta is a WordPress plugin that recommends your own content in the footer of your articles. This helps readers find more of your posts and keeps them on your site longer. It also recommends related posts from across the web and in turn promotes your posts to other users. In this way you get new unique visitors to your site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Zemanta makes sure your content gets promoted to other sites and brings back unique visitors. It is optimized for mobile devices where reader engagement with content is even higher."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, Zemanta is offered in different themes which you can also customize with simple CSS."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, Zemanta does not use redirects and is juice friendly. :)"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We adopted the principle of having three \"release channels\". You can try the most experimental (still stable!) features in <a href=\"http://wordpress.org/extend/plugins/related-posts/\" title=\"Related Posts\">Related Posts</a>. The more advanced ones are in <a href=\"http://wordpress.org/extend/plugins/wordpress-23-related-posts-plugin/\" title=\"WordPress Related Posts\">WordPress Related Posts</a>. If you're looking for the pro-like version go for <a href=\"http://wordpress.org/extend/plugins/related-posts-by-zemanta/\" title=\"Related Posts by Zemanta\">Related Posts by Zemanta</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Before using the plugin please read the full version of <a href=\"http://www.zemanta.com/legal/terms-of-service/\">Zemanta Terms of Service</a> and <a href=\"http://www.zemanta.com/legal/privacy/\">Zemanta Privacy Policy</a>."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Terms of Service"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "The plugin source code is released under GPLv2. Usage of our service is governed by <a href=\"http://www.zemanta.com/legal/terms-of-service/\">Zemanta Terms of Service</a> and <a href=\"http://www.zemanta.com/legal/privacy/\">Zemanta Privacy Policy</a>."
+msgstr ""
