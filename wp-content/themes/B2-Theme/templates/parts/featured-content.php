@@ -71,6 +71,7 @@
 			</a>
 		</div><!-- #featured-carousel -->
 		<!-- bellow slide -->
+		<div class="bellow-area">
 		<?php 
 			//query_posts('orderby=rand&showposts=5');
 			//$r_posts = my_get_rand_posts(array('numberposts' => 5));
@@ -102,6 +103,7 @@
 
 
 			<?php endif; $i++; endwhile; endif; wp_reset_postdata(); ?>
+		</div>
 	</div><!-- .col-sm-5 -->
 	<div class="col-sm-3">
 		
