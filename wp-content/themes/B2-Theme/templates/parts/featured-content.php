@@ -4,7 +4,7 @@
  */
 ?>
 
-<div class="row" id="content-header">
+<div class="" id="content-header">
 	<div class="col-sm-6">
 		<div id="featured-carousel" class="carousel slide">
 

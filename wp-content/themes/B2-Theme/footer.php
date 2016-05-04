@@ -39,6 +39,8 @@
 	</div><!-- .container -->
 </footer><!-- #colophon -->
 
+</div> <!-- end body container -->
+
 <?php wp_footer(); ?>
 <script>
 	
