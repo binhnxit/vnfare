@@ -5,7 +5,7 @@
 ?>
 
 <div class="" id="content-header">
-	<div class="col-sm-6">
+	<div class="col-sm-5">
 		<div id="featured-carousel" class="carousel slide">
 
 			<div class="carousel-inner" role="listbox">
@@ -70,9 +70,43 @@
 				<span class="sr-only"><?php _ex( 'Next', 'Used to navigate the featured content carousel.', 'alienship' ); ?></span>
 			</a>
 		</div><!-- #featured-carousel -->
-	</div><!-- .col-sm-8 -->
+		<!-- bellow slide -->
+		<?php 
+			//query_posts('orderby=rand&showposts=5');
+			//$r_posts = my_get_rand_posts(array('numberposts' => 5));
+			 if ( have_posts() ) :
+                $i = 0;
+                while ( have_posts() ) : the_post(); if($i<4) :
 
-	<div class="col-sm-6">
+                ?>
+                <div class="no-padding bellow-slider">
+					<article style="margin-bottom: 0px; padding: 3px 5px;" role="article" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					
+							<div class="pull-left">
+								<?php if ( has_post_thumbnail() ) { ?>
+								<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Link to %s', 'alienship' ), the_title_attribute( 'echo=0' ) ); 	?>">
+										<?php echo get_the_post_thumbnail( $post->ID, 'full', array( 'class' => 'aligncenter', 'title' => "" ) ); ?>
+								</a>
+								<?php } ?>
+							</div>
+							<div class="">
+								<header class="entry-header">
+									<?php the_title( sprintf( '<h5 class="entry-title" style="margin-bottom: 0px;"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h5>' ) ?>
+								</header>
+							</div>
+							<div class="clearfix"></div>
+						
+					</article><!-- #post-<?php the_ID(); ?> -->
+
+				</div>
+
+
+			<?php endif; $i++; endwhile; endif; wp_reset_postdata(); ?>
+	</div><!-- .col-sm-5 -->
+	<div class="col-sm-3">
+		
+	</div>
+	<div class="col-sm-4">
 		<?php 
 			//query_posts('orderby=rand&showposts=5');
 			//$r_posts = my_get_rand_posts(array('numberposts' => 5));
@@ -111,6 +145,7 @@
 
 			<?php endif; $i++; endwhile; endif; wp_reset_postdata(); ?>
 
-<div class="clearfix"></div>
+		
 	</div>
+	<div class="clearfix"></div>
 </div><!-- .row -->

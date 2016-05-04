@@ -5,8 +5,7 @@
  * @package Alien Ship
  */
 ?>
-<!-- begin body container -->
-<div class="container">
+
 	<div class="top-header">
 		
 			<div class="col-md-4">Logo</div>
@@ -25,7 +24,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+				<a class="navbar-brand hidden-md hidden-lg" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-ex1-collapse">

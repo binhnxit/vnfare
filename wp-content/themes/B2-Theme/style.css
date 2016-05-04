@@ -23,7 +23,7 @@ html {
 
 body {
   margin: 0;
-  
+  background-color: #E9EAED;
 }
 
 article,
@@ -1410,7 +1410,7 @@ body {
   font-weight: 300;
   line-height: 1.667;
   color: #333333;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 input,
@@ -1427,7 +1427,7 @@ a {
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #B00000;
+  color: #008000;
 }
 a:focus {
   outline: thin dotted;
@@ -4518,10 +4518,12 @@ tbody.collapse.in {
   position: relative;
   display: block;
   padding: 10px 15px;
+  border: 2px solid #ECECEC;
+  font-size: 17px;
 }
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  /*background-color: #eeeeee;*/
 }
 .nav > li.disabled > a {
   color: #777777;
@@ -5100,8 +5102,9 @@ tbody.collapse.in {
 }
 
 .navbar-inverse {
-  background-color: #B00000;
-  border-color: #B00000;
+
+  background: #ECECEC;
+
 }
 .navbar-inverse .navbar-brand {
   color: #fff;
@@ -5115,25 +5118,27 @@ tbody.collapse.in {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #fff;
+  color: #000;
+
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: #930000;
+  color: #008000;
+   border-top: 2px solid #008000;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #930000;
+  color: #008000;
+  border-top: 2px solid #008000;
+  
 }
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #444;
-  background-color: transparent;
+  color: #000;
+ /* background-color: transparent;*/
 }
 .navbar-inverse .navbar-toggle {
   border-color: #333;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #333;
+  /*background-color: #333;*/
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -7441,7 +7446,7 @@ button.close {
 }
 
 #page {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #main-row {
@@ -7773,7 +7778,7 @@ ins {
 /* Widgets
 ----------------------------------------------- */
 #sidebar {
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 .widget-area {
@@ -7801,7 +7806,7 @@ ins {
 }
 
 .widget-title {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .widget .nav-stacked {
@@ -7922,15 +7927,17 @@ ins {
   border-color: #458025;
 }
 .box-title {
-  background: #ffcaca none repeat scroll 0 0;
-  border-bottom: 1px solid #b00000;
+  border-bottom: 1px solid #bbb;
   padding-bottom: 5px;
   padding-top: 6px;
 }
-.box-title span.square{
+
+.box-title span.square {
+  border-bottom: 1px solid #008000;
+  color: #008000;
+  font-weight: lighter;
   padding: 5px 10px;
-  background: #B00000;
-  color: #fff;
+  text-transform: uppercase;
 }
 h1.entry-title{
   font-size: 24px;
@@ -7940,10 +7947,11 @@ h1.entry-title{
   height: 100%;
 }
 .carousel .item{
-  max-height: 300px;
+  max-height: 200px;
 }
 #content-header{
   margin-bottom: 20px;
+  padding: 0px 5px;
 }
 .content-right-head img{
   width: 100%;
@@ -7986,4 +7994,21 @@ img:hover{
 /* B2 CSS */
 .top-header{
   height: 100px;
+}
+#vf-main{
+  background-color: #fff;
+  padding: 0px;
+
+}
+.no-padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.bellow-slider .pull-left img{
+  width: 80px;
+  margin-right: 5px;
+  height: 50px;
+}
+.bellow-slider{
+  margin-top: 5px;
 }

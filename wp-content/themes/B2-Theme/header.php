@@ -21,6 +21,9 @@ do_action( 'alienship_head' ); ?>
 <body <?php body_class(); ?>>
 	<!--[if lt IE 9]><p class="browsehappy alert alert-danger">You are using an outdated browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 
+<!-- begin body container -->
+<div class="container" id="vf-main">
+
 <?php
 	get_template_part( '/templates/parts/menu', 'top' );
 
