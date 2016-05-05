@@ -3314,6 +3314,8 @@ function wpp_get_views($id = NULL, $range = NULL, $number_format = true) {
 
 }
 
+
+
 /**
  * Template tag - gets popular posts.
  *

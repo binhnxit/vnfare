@@ -7551,7 +7551,7 @@ img[class*="attachment-"],
 @media (min-width: 768px) {
 
   img.wp-post-image{
-    margin-bottom: 10px !important;
+    margin-bottom: 5px !important;
   }
 }
 
@@ -7930,13 +7930,14 @@ ins {
   border-bottom: 1px solid #bbb;
   padding-bottom: 5px;
   padding-top: 6px;
+  margin-left: 5px;
 }
 
 .box-title span.square {
   border-bottom: 1px solid #008000;
   color: #008000;
   font-weight: lighter;
-  padding: 5px 10px;
+  padding: 5px 10px 5px 2px;
   text-transform: uppercase;
 }
 h1.entry-title{
@@ -7950,7 +7951,7 @@ h1.entry-title{
   max-height: 200px;
 }
 #content-header{
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   padding: 0px 5px;
 }
 .content-right-head img{
@@ -8011,4 +8012,26 @@ img:hover{
 }
 .bellow-area{
   margin-top: 5px;
+}
+.my-post-category-head .pull-left img{
+  width: 80px;
+  margin-right: 7px;
+}
+.cat-title-head{
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.fanpage-face{
+  margin-top: 10px;
+}
+.sector1-right .pull-left img{
+  width: 120px;
+  margin-right: 7px;
+}
+.sector1-right{
+  padding: 0px !important;
+}
+.sector2-bellow .pull-left img{
+  width: 100px;
+  margin-right: 7px;
 }
